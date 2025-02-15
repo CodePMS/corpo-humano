@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #01e668, #000000); 
+    background: linear-gradient(to bottom, #039444, #000000); 
 
 }
 p, li {
@@ -8,7 +8,7 @@ color:lightgreen;
 
 
 }
-h1, h2, h3 {
+h1, h2 {
 color:rgb(39, 172, 79);
 
 }
@@ -25,14 +25,15 @@ color:darkseagreen;
     border-radius: 8px; 
 }
 h1, h2 {
-    border: 2px solid rgba(255, 255, 255, 0.5); /* Borda branca semi-transparente */
-    padding: 15px; /* Espaçamento interno */
-    display: inline-block; /* Faz a borda envolver apenas o texto */
-    background-color: rgba(0, 0, 0, 0.3); /* Fundo preto semi-transparente */
-    border-radius: 8px; /* Arredondamento opcional */
-    color: white; /* Deixa o texto branco */
-    
+    border: 2px solid rgba(10, 221, 116, 0.5);
+    padding: 15px; 
+    display: inline-block; 
+    background-color: rgba(0, 0, 0, 0.3); 
+    border-radius: 8px; 
+    color: white; 
+    }
+    h3 {
+color: rgb(8, 238, 123)
 
 
-
-}
+    }
