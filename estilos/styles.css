@@ -10,12 +10,6 @@ color:lightgreen;
 }
 h1, h2, h3 {
 color:rgb(39, 172, 79);
-border: 2px solid rgba(255, 255, 255, 0.5); /* Borda branca semi-transparente */
-padding: 15px; /* Espaçamento interno */
-display: inline-block; /* Faz a borda envolver apenas o texto */
-background-color: rgba(0, 0, 0, 0.3); /* Fundo preto semi-transparente */
-border-radius: 8px; /* Arredondamento opcional */
-color: white; /* Deixa o texto branco */
 
 }
 h4 {
@@ -29,4 +23,16 @@ color:darkseagreen;
     display: inline-block; 
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 8px; 
+}
+h1, h2 {
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Borda branca semi-transparente */
+    padding: 15px; /* Espaçamento interno */
+    display: inline-block; /* Faz a borda envolver apenas o texto */
+    background-color: rgba(0, 0, 0, 0.3); /* Fundo preto semi-transparente */
+    border-radius: 8px; /* Arredondamento opcional */
+    color: white; /* Deixa o texto branco */
+    
+
+
+
 }
