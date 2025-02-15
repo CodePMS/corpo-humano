@@ -1,20 +1,20 @@
 body {
-background: lightblue;
+    background: linear-gradient(to bottom, #01e668, #000000); 
 
 }
 p, li {
-color:cornsilk;
+color:lightgreen;
 
 
 
 }
 h1, h2, h3 {
-color:blue;
+color:darkgreen;
 
 
 }
 h4 {
-color:darkslateblue;
+color:darkseagreen;
 
 
 }
