@@ -49,8 +49,8 @@ color: rgb(8, 238, 123)
     width: 200px; 
     height: auto; 
     border-top: 30px;
-    border-color: rgb(35, 141, 67);
-    padding: 10px;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   }
 
   
@@ -74,3 +74,15 @@ a:hover{
 color: rgb(157, 255, 0)
 }
 
+
+.cvazio {
+    list-style-type: circle;
+}
+
+.circle{
+    list-style-type: circle;
+}
+
+.nada{
+    list-style-type: circle;
+}
