@@ -1,52 +1,33 @@
 body {
-    background: linear-gradient(to bottom, #039444, #000000); 
-
+   
+    background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png'), #0a0a0a;
+    background-blend-mode: multiply;
+    color: white;
 }
-p, li {
-color:lightgreen;
-
-
-
-}
-h1, h2 {
-color:rgb(39, 172, 79);
-
-}
-h4 {
-color:rgb(63, 216, 63);
-
-
-}
-.titulo {
-    border: 2px solid rgba(0, 0, 0, 0.5); 
-    padding: 10px; 
-    display: inline-block; 
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 8px; 
-}
-h1, h2 {
-    border: 2px solid rgba(10, 221, 116, 0.5);
-    padding: 15px; 
-    display: inline-block; 
-    background-color: rgba(0, 0, 0, 0.3); 
-    border-radius: 8px; 
-    color: white; 
-    }
-    h3 {
-color: rgb(8, 238, 123)
- }
- a {
-color: rgb(82, 255, 2)
-
- }
- .img {
-    width: 200px; 
-    height: auto; 
-    border-top: 30px;
-    border-color: rgb(35, 141, 67);
+h1 {
+    border: 2px solid blueviolet;
     padding: 10px;
+    display: inline-block;
+    background-color: rgba(138, 43, 226, 0.2);
+    border-radius: 2px;
+}
+
+p, h4 {
+    color: white;
+}
+a {
+color:blueviolet;
+
+}
+
+h3, h5 {
+color:gold;
+
+ }
+ img {
+    width: 100px; 
+    height: auto; 
+    border-top: 5px;
   }
   
-  h1, h2, h3, h4, p, a, img {
-    margin: 10px;
-}
+  

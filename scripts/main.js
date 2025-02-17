@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     linksAlbuns.forEach(link => {
         link.addEventListener("click", (event) => {
-            const confirmacao = confirm("Você será redirecionado para o Site. Deseja continuar?");
+            const confirmacao = confirm("Você será redirecionado para o Spotify. Deseja continuar?");
             if (!confirmacao) {
                 event.preventDefault(); // Cancela o redirecionamento se o usuário clicar em "Cancelar"
             }
